@@ -1,0 +1,77 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.column {
+  background: #f4f4f4;
+  padding: 10px;
+  width: 30%;
+  border-radius: 8px;
+  min-height: 250px;
+}
+
+.column h2 {
+  margin-bottom: 10px;
+}
+
+.task {
+  background: white;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: grab;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-task {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-task button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-task button:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
+
+
